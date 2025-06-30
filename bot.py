@@ -26,7 +26,7 @@ intents.members = True
 
 bot = discord.Bot(intents=intents)
 bot.logger = logger
-bot.r4_role_id = R4_ROLE_ID
+bot.example_role_id = EXAMPLE_ROLE_ID
 
 # Load cogs
 COGS = [
